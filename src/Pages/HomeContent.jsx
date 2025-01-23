@@ -1,5 +1,5 @@
 import React from 'react';
-import port from '../assets/images/sahil-port.jpg';
+import port from '../assets/images/sahil-port-3.jpg';
 import About from './About';
 
 const HomeContent = () => {
