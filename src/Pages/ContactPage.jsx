@@ -1,14 +1,14 @@
 import React from 'react'
-import ProjectWork from './ProjectWork'
+import Contact from './Contact'
 import HomeContent from './HomeContent'
 
-const ProjectPage = () => {
+const ContactPage = () => {
   return (
     <div>
       <HomeContent />
-      <ProjectWork />
+      <Contact />
     </div>
   )
 }
 
-export default ProjectPage
+export default ContactPage

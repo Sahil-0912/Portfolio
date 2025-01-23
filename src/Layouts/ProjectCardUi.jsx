@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectCardUi = (props) => {
   return (
     <div>
-      <div className="card project">
+      {/* <div className="card project">
         <img src={props.image} />
         <div className="card-body">
           <h4>{props.title}</h4>
@@ -12,7 +12,7 @@ const ProjectCardUi = (props) => {
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             Live </a>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

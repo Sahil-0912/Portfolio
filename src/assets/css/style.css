@@ -1,12 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #050b17;
     height: 100vh;
     width: 100%;
+}
+
+.navbar-toggler {
+    /* border: 1px solid rgba(14, 105, 144, 0.712) !important; */
+    background-color: #ce94e9!important;
 }
 
 .header {
@@ -17,7 +23,7 @@ body {
 }
 
 .header-scrolled {
-    background-color: #fff!important;
+    background-color: #fff !important;
     transition: all 1s linear !important;
     box-shadow: 0 0 10px #000;
 }
@@ -39,9 +45,9 @@ body {
 .navbar a {
     color: #ce94e9 !important;
     text-decoration: none;
-    font-size:19.5px;
+    font-size: 19.5px;
     font-weight: bold;
-    padding:8px;
+    padding: 8px;
 }
 
 .navbar h4 {
@@ -50,156 +56,291 @@ body {
 }
 
 .navbar span {
-    color:#ce94e9 !important;
-}
-.home-con h2{
-    margin-top: 23%!important;
-    color: #fff;
-}
-.home-con h1{
-    color:#fff;
+    color: #ce94e9 !important;
 }
 
-.typing-text{
+.home-con h2 {
+    margin-top: 23% !important;
+    color: #fff;
+}
+
+.home-con h1 {
+    color: #fff;
+}
+
+.typing-text {
     font-size: 34px;
     font-weight: 400;
     min-width: 280px;
 
 }
-.typing-text span{
+
+.typing-text span {
     position: relative;
-} 
-.typing-text span::before{
+}
+
+.typing-text span::before {
     content: "Software developer";
-    color: #ce94e9 ;
-    animation:words 20s infinite;
+    color: #ce94e9;
+    animation: words 20s infinite;
 
 }
-.typing-text span::after{
+
+.typing-text span::after {
     content: "";
     background-color: #000000;
     position: absolute;
     width: calc(100%+8px);
     height: 100vh;
     /* border-left: 3px solid black; */
-     right: -8;
-     animation:cursor 0.6s infinite;
+    right: -8;
+    animation: cursor 0.6s infinite;
 
 }
-.home-con h2{
+
+.home-con h2 {
     font-size: 1.6rem;
 }
-.home-con  h1{
-    font-size:3.5rem !important;
+
+.home-con h1 {
+    font-size: 3.5rem !important;
     font-weight: 600;
 }
-.home-con .typing-text{
+
+.home-con .typing-text {
     font-size: 2.3rem;
     font-weight: 500;
 }
 
-@keyframes cursor{
-    to{
+@keyframes cursor {
+    to {
         /* border-left:1px solid #987890; */
 
     }
 }
-@keyframes words{
-  0% ,20% {
-    content:"Web developer";
-  }
-  21%,40%{
-    content: "MernStack developer";
-  }
-  41%,60%{
-    content: "Coder";
-  }
-  61%,80%{
-    content: "Designer & Developer";
-  }
-  81%,100%{
-    content: "FullStack developer";
-  }
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: "Web developer";
+    }
+
+    21%,
+    40% {
+        content: "MernStack developer";
+    }
+
+    41%,
+    60% {
+        content: "Coder";
+    }
+
+    61%,
+    80% {
+        content: "Designer & Developer";
+    }
+
+    81%,
+    100% {
+        content: "FullStack developer";
+    }
 }
-.home-con .btn{
-    background-color:#050b17;
+
+.home-con .btn {
+    background-color: #050b17;
     border: 2px solid #ce94e9;
 }
-.home-con img{
+
+.home-con img {
     height: 380px;
     width: 380px;
     margin-top: 18%;
 }
-.about-con{
-    margin-top: 10%!important;
+
+.about-con {
+    margin-top: 10% !important;
 }
+.about-con img{
+    width: 400PX;
+}
+
+.about-con h2 {
+    color: #ce94e9 !important;
+    font-weight: 700;
+}
+
 /* .about p{
     margin-top: 3%;
     color:#fff!important;  
 } */
 
-.about-con ul li{
+.about-con ul li {
     line-height: 40px;
+    /* margin-left: 33%!important; */
 }
-.about-con span{
+
+.about-con span {
     margin-left: 5%;
 }
-.about-con li{
+
+.about-con p{
+    /* margin-left: 38%!important; */
+}
+/* .eduaction{
+    margin-left: 5%!important;
+} */
+
+.about-con li {
     text-align: -webkit-match-parent;
     unicode-bidi: isolate;
 }
-.about-info .pos{
+
+.about-info .pos {
     position: relative;
-    left:43px;
+    left: 43px;
     color: #AB886D;
 }
-.about-info .pos2{
+
+.about-info .pos2 {
     position: relative;
-    left:30px;
+    left: 30px;
     color: #AB886D;
-    
+
 }
-.about-info .pos3{
-    position: relative;
-    left:22px;
-    color: #AB886D;
-}
-.about-info .pos4{
-    position: relative;
-    left:48px;
-    color: #AB886D;
-}
-.about-info .pos5{
+
+.about-info .pos3 {
     position: relative;
     left: 22px;
     color: #AB886D;
 }
-.about-info .eduaction{
-    list-style: none;;
-}
-.about-info .pos6{
+
+.about-info .pos4 {
+    position: relative;
+    left: 48px;
     color: #AB886D;
 }
-.skill-icons img{
+
+.about-info .pos5 {
+    position: relative;
+    left: 16px;
+    color: #AB886D;
+}
+
+.about-info .eduaction {
+    list-style: none;
+    ;
+}
+
+.about-info .pos6 {
+    color: #AB886D;
+}
+
+.skill-icons img {
     height: 100px;
     width: 100px;
 }
-.skill h4{
+
+.skill h4 {
     margin-top: 20px;
 }
-.skill-icons h5{
+
+.skill h2 {
+    color: #ce94e9 !important;
+    font-weight: 700;
+}
+
+.skill-icons h5 {
     text-transform: uppercase;
 }
-.project  a{
-    text-decoration: none!important;
-    color:#000000;
+
+.project-work h2 {
+    color: #ce94e9 !important;
+    font-weight: 700;
+}
+
+.project a {
+    text-decoration: none !important;
+    color: #000000;
     font-size: 17px;
 }
-.project a{
+
+.project a {
     position: relative;
-    left:10px;
+    left: 10px;
 }
+
 .project {
-    box-shadow: 0 0 20px #ce94e9;
-    border-style: none;
+    /* box-shadow: 0 0 20px #ce94e9; */
+    /* border-style: none; */
+    background-color: #050b17;
+    border-radius: 10px;
+    border: 1px solid #ce94e9;
+    color: #fff;
+    /* height: 500px; */
+}
+
+.project img {
+    height: 200px;
+    width: 400px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project:hover {
+    /* border: 2px solid #fff; */
+    transition: 0.8s linear all;
+    /* background-color: #ce94e9; */
+    /* color: #000; */
+}
+
+.project .btn {
+    border: 1px solid #ce94e9;
+    color: #fff;
+}
+
+.project .btn:hover {
+    background-color: #ce94e9;
+    transition: 0.8s linear all;
+}
+
+.information h2 {
+    color: #ce94e9 !important;
+    font-weight: 700;
+}
+
+.information .card {
+    background-color: #141724;
+    color: #ce94e9;
+    height: 90%;
+    width: 80%;
+    border: 1px solid #141724;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.information i {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.information a {
+    color: #ce94e9;
+}
+
+footer {
+    height: 62px;
+    width: 100%;
+    background-color: #141724;
+    padding: 1.5px;
+}
+
+footer span {
+    color: #ce94e9;
+    font-size: 20px;
+}
+
+.copy {
+    border-radius: 50%;
 }

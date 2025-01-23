@@ -38,14 +38,14 @@ const Header = () => {
                                     <NavLink class="nav-link active mx-4" aria-current="page" to="/skillpage">Skills</NavLink>
                                 </li>
                                 <li class="nav-item">
-                                    <NavLink class="nav-link active mx-4" aria-current="page" href="#">Projects</NavLink>
+                                    <NavLink class="nav-link active mx-4" aria-current="page" to="/projectpage">Projects</NavLink>
                                 </li>
                                 <li class="nav-item">
-                                    <NavLink class="nav-link active mx-4" aria-current="page" href="#">Contact</NavLink>
+                                    <NavLink class="nav-link active mx-4" aria-current="page" to="/contactpage">Contact</NavLink>
                                 </li>
-                                <li class="nav-item">
+                                {/* <li class="nav-item">
                                     <NavLink class="nav-link active mx-4" aria-current="page" href="#">Resume</NavLink>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
