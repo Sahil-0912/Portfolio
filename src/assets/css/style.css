@@ -170,10 +170,7 @@ body {
     font-weight: 700;
 }
 
-/* .about p{
-    margin-top: 3%;
-    color:#fff!important;  
-} */
+
 
 .about-con ul li {
     line-height: 40px;
@@ -184,12 +181,8 @@ body {
     margin-left: 5%;
 }
 
-.about-con p{
-    /* margin-left: 38%!important; */
-}
-/* .eduaction{
-    margin-left: 5%!important;
-} */
+
+
 
 .about-con li {
     text-align: -webkit-match-parent;
